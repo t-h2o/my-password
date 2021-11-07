@@ -17,3 +17,10 @@ You only need to have this program on you alway and the date when you create you
 And nobody can't steal your password whithout your date of creating account and the pin.
 
 
+## How work
+
+It's just a chaotic function
+```
+	c
+psw = f(date, pin);
+```
