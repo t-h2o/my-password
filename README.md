@@ -1,27 +1,35 @@
 # my-password-manager
 
-need to create password...
+you need to create a password ?
 
 
 ## How use
 
 For example... you need to create a password for buy stuff on [skate.ch](https://www.skate.ch)
-and you have to create a account. You are creating that at a 12th November 2069 (12.11.2069).
+and you have to create a account. You are creating that at a 29th December 2001 (29.12.2001).
 You excecute ...
-* ```~$ ./passwordManager``` 
-* ```Give me your pin :```
-* ```1234```
-* ``` PIN OK, the date :12112069```
-* ```--> #(&HLW2482bw7```
-You only need to have this program on you alway and the date when you create your account...
-And nobody can't steal your password whithout your date of creating account and the pin.
+* ```~$ ./pass``` 
+```shell
+	PASSWORD MANAGER
+
+give your birhtday account : 29.12.2001
+
+give a pin : 51
+
+your code : Px{>uPTn6-TC
+
+	END
+```
+
+This code ask you 2 things, a date and a number. 
+This program doesn't store any password, 
+he create a password with a date and a pin.
 
 
 ## How work
 
 It's just a chaotic function
 ```
-	c
 psw = f(date, pin);
 ```
 
@@ -49,6 +57,4 @@ or
 * ```~$ mv a.out pass```
 * ```~$ ./pass```
 
-Here, the soft is work...
-
-
+Here you have this program...
