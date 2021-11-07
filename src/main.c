@@ -33,7 +33,7 @@ void
 
 	s = list_char();
 
-	printf("\n\nyour code : ");
+	printf("\nyour code : ");
 
 	ask_char(PIN + d * m * y, s);	
 	ask_char(d * (1 + PIN % 7), s);	
