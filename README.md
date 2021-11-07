@@ -24,3 +24,31 @@ It's just a chaotic function
 	c
 psw = f(date, pin);
 ```
+
+
+## How use it on my phone
+
+install 
+[termux](https://play.google.com/store/apps/details?id=com.termux)
+on 
+[f-droid](https://f-droid.org/packages/com.termux/) 
+or 
+[goole play](https://play.google.com/store/apps/details?id=com.termux) 
+
+
+## On termux...
+
+* ```~$ git clone https://github.com/theo-grivel/42-Libft```
+* ```~$ git clone https://github.com/theo-grivel/my-password-manager```
+* ```~$ cd 42-libft```
+* ```~$ pkg install clang```
+* ```~$ ar rc libft.a *c```
+* ```~$ mv libft.a ../my-password-manager```
+* ```~$ cd ../my-password-manager```
+* ```~$ clang src/main.c -L. -lft```
+* ```~$ mv a.out pass```
+* ```~$ ./pass```
+
+Here, the soft is work...
+
+
