@@ -58,31 +58,16 @@ With my experience, the best is termux from f-droid
 
 * ```~$ pkg install git```
 * ```~$ pkg install clang```
-* ```~$ pkg install binutils```
 
 
 ### Dowload git repo
 
-* ```~$ git clone https://github.com/theo-grivel/42-Libft```
 * ```~$ git clone https://github.com/theo-grivel/my-password-manager```
-
-
-### compil the librairy
-
-* ```~$ cd 42-libft```
-* ```~$ clang -c *c```
-* ```~$ ar rc libft.a *o```
-
-
-### Move the librairy
-
-* ```~$ mv libft.a ../my-password-manager```
-
 
 ### Finish
 
-* ```~$ cd ../my-password-manager```
-* ```~$ clang src/main.c -L. -lft```
+* ```~$ cd ../my-password-manager/src```
+* ```~$ clang *c```
 * ```~$ mv a.out pass```
 * ```~$ ./pass```
 
