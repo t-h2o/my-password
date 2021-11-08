@@ -1,3 +1,2 @@
-*o
-a.out
-pass
+src/*o
+bin/pass
