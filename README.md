@@ -12,7 +12,7 @@ Check the man of pwgen
 
 exampple :
 ```sh
-pwgen -H ./file#something -N 1 -S 12
+pwgen -H ./file#something -N 1 -s 12
 ```
 
 ## How use
