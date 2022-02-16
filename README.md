@@ -2,6 +2,18 @@
 
 you need to create a password ?
 
+## password generator
+
+```sh
+sudo apt install pwgen
+```
+Here there a programme as the mine but clearly better!
+Check the man of pwgen
+
+exampple :
+```sh
+pwgen -H ./file#something -N 1 -S 12
+```
 
 ## How use
 
